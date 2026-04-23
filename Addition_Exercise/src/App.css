@@ -182,3 +182,33 @@
     border-right-color: var(--border);
   }
 }
+
+.botones-calculadora {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px; 
+  max-width: 300px; 
+  margin: 0 auto; 
+}
+
+.botones-calculadora button {
+  padding: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contenedor {
+  
+  margin-left: auto; 
+  margin-right: 50px; 
+  max-width: 400px; 
+  padding: 20px;
+  border: 1px solid black; 
+}
+
+.pantalla {
+  box-sizing: border-box; 
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: right; 
+}
